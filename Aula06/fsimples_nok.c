@@ -1,10 +1,5 @@
 #include <stdio.h>
 
-float media2(int a, int b) {
-  float res;
-  res = (a + b) / 2.0;
-  return res;
-}
 
 int main() {
 
@@ -26,4 +21,10 @@ int main() {
   printf("Média de %d + %d é %f\n", n1, n2, media2(n1,n2));
 
   return 0;
+}
+
+float media2(int a, int b) {
+  float res;
+  res = (a + b) / 2.0;
+  return res;
 }
