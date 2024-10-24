@@ -12,5 +12,5 @@ int main() {
 }
 
 void somaUm(int * pn){
-  *pn = *pn+1; 
+  *pn = (*pn)+1; 
 }
