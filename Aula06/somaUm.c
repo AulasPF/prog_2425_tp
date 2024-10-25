@@ -8,7 +8,7 @@ int main() {
 
   printf("Antes: %d\n", n);
   somaUm(n);
-  printf("Antes: %d\n", n);
+  printf("Depois: %d\n", n);
 }
 
 void somaUm(int n){
