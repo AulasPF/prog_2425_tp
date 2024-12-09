@@ -21,8 +21,6 @@ int main() {
   }
 
   struct aluno * array = (struct aluno *)NULL;
-  
-
   int i = 0;
   struct aluno tmp;
 

@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+#define MAXSEQSIZE   50
+
 int main() {
 
   FILE *fp;
@@ -11,10 +13,10 @@ int main() {
     return 1;
   }
 
-  int array[50];
+  int array[MAXSEQSIZE];
   int size;
 
-  size = fread(array,sizeof(int),50,fp); 
+  size = fread(array,sizeof(int),MAXSEQSIZE,fp); 
 
   for(int i=0; i< size; i++){
     printf("%3d: %8d\n",i,array[i]);
